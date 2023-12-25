@@ -22,8 +22,8 @@ app.use("/v1", api);
 //Use * always at the bottom
 
 app.get("/*", (req, res) => {
-  res.sendFile(path.resolve(path.resolve(), "client", "build", "index.html"));
-  // res.sendFile(path.join(__dirname, "..", "public", "index.html"));
+  // res.sendFile(path.resolve(path.resolve(), "client", "build", "index.html"));
+  res.sendFile(path.join(__dirname, "..", "public", "index.html"));
 });
 
 module.exports = app;
