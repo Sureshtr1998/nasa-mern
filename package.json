@@ -18,8 +18,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "arwes": "^1.0.0-alpha.23",
-    "concurrently": "^8.2.2",
-    "morgan": "^1.10.0"
+    "concurrently": "^8.2.2"
   }
 }
